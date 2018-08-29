@@ -4,8 +4,8 @@ server:
 info:
   id: ${spring.application.name}
 
-logging:
-  level: debug
+#logging:
+#  level: debug
 
 endpoints:
   restart:
@@ -38,10 +38,10 @@ spring:
   zipkin:
     baseUrl: http://zipkin-service:9411
 
-logging:
-  level: warn
-  logstash:
-    host: logstash
+#logging:
+#  level: warn
+#  logstash:
+#    host: logstash
 
 eureka:
   client:
