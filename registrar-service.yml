@@ -10,6 +10,7 @@ security:
   datasource:
     platform: mysql
     driver-class-name: com.mysql.jdbc.Driver
+    driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost/REGISTRAR
     username: root
     password: root
