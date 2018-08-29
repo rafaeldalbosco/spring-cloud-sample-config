@@ -7,6 +7,7 @@ security:
     resource:
       userInfoUri: http://localhost:9999/uaa/user
   datasource:
+    driverClassName: com.mysql.jdbc.Driver
     url: jdbc:mysql://localhost:3306/REGISTRAR?useSSL=false&useUnicode=yes&characterEncoding=UTF-8
     username: root
     password: root
