@@ -26,6 +26,9 @@ zuul:
     registrar:
       path: /registrar/**
       serviceId: REGISTRAR-SERVICE
+    demo:
+      path: /demo/**
+      serviceId: DEMO-SERVICE
   add-proxy-headers: true
 
 ---
